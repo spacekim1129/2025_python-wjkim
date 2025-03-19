@@ -1,0 +1,9 @@
+winning_numbers = [2, 3 , 9]
+a, b, b = map(int, input("세 정수를 입력하세요.").split(','))
+matched_count = (a in winning_numbers) + (b in winning_numbers) + (c in winning_numbers)
+if matched_count ==3:
+    print('1 억원')
+if matched_count ==2:
+    print('천만원')
+if matched_count ==1:
+    print('만원')
