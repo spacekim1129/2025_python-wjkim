@@ -1,0 +1,4 @@
+game_score = int(input("당신의 점수는? : "))
+print('game_score = ', game_score)
+if game_score >= 1000:
+    print('당신은 고수입니다.')
