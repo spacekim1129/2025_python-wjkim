@@ -1,0 +1,6 @@
+def solution(n):
+    total = 0                      # 결과를 담을 변수 (합계)
+    for i in range(n + 1):        # 0부터 n까지 하나씩 숫자를 반복해!
+        if i % 2 == 0:            # 만약 그 숫자가 짝수라면?
+            total += i            # total에 그 숫자를 더해줘
+    return total    
