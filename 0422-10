@@ -1,0 +1,12 @@
+def solution(n, k):
+    # 양꼬치 가격 계산
+    lamb_skewer_price = 12000 * n
+    
+    # 음료수 개수 계산 (서비스 음료수 제외)
+    drinks_to_pay = k - (n // 10)  # 10인분 당 1개 서비스
+    
+    # 음료수 가격 계산
+    drinks_price = drinks_to_pay * 2000
+    
+    # 총 가격 계산
+    answer = lamb_skewer_price + drinks_price
