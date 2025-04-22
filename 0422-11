@@ -1,0 +1,21 @@
+ode = input()
+last_four_words = code[-4:]
+
+if last_four_words == 
+"_eye"
+:
+    print("Ophthalmologyc")
+elif 
+last_four_worlds== "head"
+:
+    print("Neurosurgery")
+elif 
+last_four_wolds == "infl"
+:
+    print("Orthopedics")
+elif last_four_wolds == "skin"
+:
+    print("Dermatology")
+else
+:
+    print("direct recommendation")
